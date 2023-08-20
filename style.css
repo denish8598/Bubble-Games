@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    font-family: "gillroy";
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(172, 203, 125);
+    width: 100%;
+    height: 100%;
+}
+#panel{
+    
+    width: 80%;
+    height: 90%;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: wheat;  
+
+  
+}
+#ptop{
+        display: flex;
+        color: #fff;
+        justify-content: space-between;
+        padding :0 30%;
+  align-items: center;
+    height: 100px;
+    background-color: green;
+}
+.box{
+   padding: 10px 20px;
+   background-color: white;
+    border-radius: 5px;
+    color: green;
+    font-weight: 700;
+     font-size: 22px;
+}
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 20px;font-size: 25px;
+}
+.elem h2{
+    font-weight: 500;
+    font-size:  22px;
+}
+#pbtm{
+    padding: 20px ;
+    display: flex;
+    gap: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: calc(100% - 100px);
+    background-color: black;
+}
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: aquamarine;
+    color: black;
+    border-radius: 50%;
+    font-weight: 500;
+
+}
+.bubble:hover{
+    cursor: pointer;
+    background-color: green;
+}
+.gameover{
+    color: white;
+    font-size: 100px;
+}
